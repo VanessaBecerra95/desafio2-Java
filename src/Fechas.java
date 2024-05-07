@@ -16,7 +16,7 @@ public class Fechas {
          if (anio1 < anio2) {
             System.out.println("persona 2 es mayor");
         } else if (anio1 > anio2) {
-            System.out.println("persona 1 es mayo");
+            System.out.println("persona 1 es mayor");
         } else {
             if (mes1 < mes2)
                 System.out.println("persona 2 es mayor");
@@ -26,7 +26,7 @@ public class Fechas {
                 if (dia1 < dia2)
                     System.out.println("persona 2 es mayor");
                 else if (dia1 > dia2)
-                    System.out.println("persona 1 es mayor ");
+                    System.out.println("persona 1 es mayor");
                 else
                     System.out.println("Tienen la misma edad");
             }
