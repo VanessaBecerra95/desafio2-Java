@@ -14,19 +14,19 @@ public class Fechas {
         int mes2 = Integer.parseInt(fecha2.substring(3, 5));
         int anio2 = Integer.parseInt(fecha2.substring(6, 10));
          if (anio1 < anio2) {
-            System.out.println("persona 2 es mayor");
-        } else if (anio1 > anio2) {
             System.out.println("persona 1 es mayor");
+        } else if (anio1 > anio2) {
+            System.out.println("persona 2 es mayor");
         } else {
             if (mes1 < mes2)
-                System.out.println("persona 2 es mayor");
-            else if (mes1 > mes2)
                 System.out.println("persona 1 es mayor");
+            else if (mes1 > mes2)
+                System.out.println("persona 2 es mayor");
             else {
                 if (dia1 < dia2)
-                    System.out.println("persona 2 es mayor");
-                else if (dia1 > dia2)
                     System.out.println("persona 1 es mayor");
+                else if (dia1 > dia2)
+                    System.out.println("persona 2 es mayor");
                 else
                     System.out.println("Tienen la misma edad");
             }
